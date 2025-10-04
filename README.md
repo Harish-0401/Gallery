@@ -23,6 +23,32 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 # PROGRAM :
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gall.css">
+</head>
+<body>
+    <h1>MY Gallery</h1>
+   <div class="container">
+    <div class="card"><img src="audi.jpg" alt=""></div>
+   <div class="card"><img src="bmw.jpg" alt=""></div>
+    <div class="card"><img src="ben.webp" alt=""></div>
+     <div class="card"><img src="rolls.jpg" alt=""></div>
+      <div class="card"><img src="dodge.jpg" alt=""></div>
+   </div> 
+
+</body>
+</html>
+
+```
 # OUTPUT:
+
+C:\Users\Jesna Karan\Desktop\gallery\project3\gallapp\static\2025-10-04 (2).png
+
 # RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
