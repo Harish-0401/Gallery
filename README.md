@@ -45,6 +45,36 @@ Publish the website in the given URL.
 </body>
 </html>
 
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+    -webkit-box-animation: below 2.5px
+    linear-gradient(transparent ,transparent,rgba(3,3,3,0.2));
+    border: 3px ridge white;
+    margin: 5px;
+}
+.card{
+    transition: 0.5s ease ;
+    cursor: pointer;;
+
+}
+.container:hover > :not(:hover){
+    opacity: 0.5;
+}
+.card.hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
 ```
 # OUTPUT:
 
